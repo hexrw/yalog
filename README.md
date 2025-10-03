@@ -19,8 +19,18 @@ Oh, and it's written in TypeScript.
 
 ## Installation
 
+### NPM (Recommended)
+
 ```bash
 npm install yalog
+```
+
+### Deno (Legacy)
+
+The original Deno module (`mod.ts`) is still available for backward compatibility, but the npm package is recommended for new projects.
+
+```ts
+import yalog from "https://deno.land/x/yalog/mod.ts"
 ```
 
 ## Usage
